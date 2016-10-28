@@ -1,3 +1,3 @@
-# Xamarin-IValueConverterExample
+# Xamarin IValueConverter Example
 
 Example for basic binding and value convertion possibilities...
