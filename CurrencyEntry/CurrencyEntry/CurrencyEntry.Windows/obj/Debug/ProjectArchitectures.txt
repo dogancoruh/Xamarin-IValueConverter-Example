@@ -1,0 +1,2 @@
+C:\Users\dogan_coruh\Desktop\CurrencyEntry\CurrencyEntry\CurrencyEntry.Windows\CurrencyEntry.Windows.csproj;neutral
+C:\Users\dogan_coruh\Desktop\CurrencyEntry\CurrencyEntry\CurrencyEntry\CurrencyEntry.csproj;neutral

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CurrencyEntry"
+             xmlns:util="clr-namespace:CurrencyEntry.Util;assembly=CurrencyEntry"
+             x:Class="CurrencyEntry.MainPage">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <util:CurrencyConverter x:Key="currencyConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <ContentPage.Content>
+    <Entry Text="{Binding Amount, Converter={StaticResource currencyConverter}}" Keyboard="Numeric" />
+  </ContentPage.Content>
+</ContentPage>
